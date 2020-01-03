@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "cmake.buildDirectory": "${workspaceFolder}/out",
+    "cmake.configureArgs": [ "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/extra/vcpkg/scripts/buildsystems/vcpkg.cmake" ]
+}
